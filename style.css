@@ -43,14 +43,15 @@ ul {
   width: 60%;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  
 }
 ul a {
   border-bottom: 2px solid transparent;
   transition: 0.3s;
+  padding-left: 80px;
 }
 ul a:hover {
-  border-bottom: 2px solid white;
+  color: #0066ff;
 }
 .content {
   width: 50%;
@@ -136,3 +137,4 @@ ul a:hover {
   width: 350px;
 }
 }
+
